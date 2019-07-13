@@ -37,7 +37,7 @@ Author: uiCookies.com
 # -------------------------------------------------------------------*/
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 1.7em;
     color: #353e55;
@@ -475,7 +475,8 @@ button:focus,
 }
 
 .team .thumbnail img {
-    width: 100%;
+    width: 70%;
+    box-shadow: 5px 5px 5px #888;
 }
 
 .team .thumbnail .caption {
@@ -485,8 +486,7 @@ button:focus,
 .team .thumbnail h3 {
     font-size: 16px;
     font-weight: bold;
-
-    margin: 0 40px;
+    margin: 0 15px;
     text-transform: uppercase;
     padding: 10px 0;
 }
@@ -498,6 +498,7 @@ button:focus,
     color: #888;
     display: block;
     font-weight: normal;
+    margin-top: 7px;
 }
 
 
@@ -629,7 +630,7 @@ button:focus,
  *---------------------------*/
 
 .client-logo a img {
-    width: 100%;
+    width: 60%;
     opacity: 1;
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
