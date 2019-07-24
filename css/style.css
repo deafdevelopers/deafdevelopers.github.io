@@ -381,19 +381,23 @@ button:focus,
 }
 
 .jumbotron .content h1 {
-    color: #ffffff;
+    color: #eb8823;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .jumbotron .content p.lead {
+    font-weight: 400;
     font-size: 24px;
     line-height: 1.5em;
-    color: rgba(255, 255, 255, .7);
+    color: #FFF;
 }
 
 .jumbotron .content .event-date {
     font-size: 24px;
     margin-bottom: 40px;
+    font-weight: bold;
+    color: #FFF;
 }
 
 .jumbotron .btn {
@@ -425,7 +429,7 @@ button:focus,
  * Section Title
  *---------------------------*/
 .section-title {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -630,12 +634,16 @@ button:focus,
  *---------------------------*/
 
 .client-logo a img {
-    width: 60%;
+    width: 70%;
     opacity: 1;
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
+}
+
+.client-logo .apoio a img  {
+    width: 40%;
 }
 
 .client-logo a:hover img {
@@ -758,4 +766,19 @@ button:focus,
     margin: 0;
     text-align: center;
     top: 65%;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 35%; 
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
